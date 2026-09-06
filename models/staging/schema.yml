@@ -1,0 +1,13 @@
+models:
+- columns:
+  - name: customer_key
+    tests:
+    - unique
+    - not_null
+  - name: email
+  - name: first_name
+  - name: last_name
+  - name: country
+  description: Staging model for raw.RAW_CUSTOMERS
+  name: stg_customers
+version: 2
