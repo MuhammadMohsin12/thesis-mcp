@@ -1,0 +1,14 @@
+models:
+- columns:
+  - name: index
+    tests:
+    - unique
+    - not_null
+  - name: name
+  - name: brand
+  - name: category
+  - name: price
+  - name: stock
+  description: Staging model for raw.t_products
+  name: stg_products_v2
+version: 2
