@@ -1,0 +1,18 @@
+models:
+- columns:
+  - name: order_key
+    tests:
+    - unique
+    - not_null
+  - name: customer_key
+    tests:
+    - not_null
+  - name: customer_email
+  - name: order_date
+  - name: status
+    tests:
+    - not_null
+  - name: total_amount
+  description: Staging model for raw.raw_orders
+  name: stg_orders
+version: 2
