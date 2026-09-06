@@ -1,0 +1,8 @@
+version: 2
+sources:
+- name: raw
+  database: TEST_DB
+  schema: TEST_SCHEMA
+  tables:
+  - name: t_products
+  - name: RAW_ORDERS
