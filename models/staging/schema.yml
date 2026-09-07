@@ -1,0 +1,27 @@
+models:
+- columns:
+  - name: index
+    tests:
+    - unique
+    - not_null
+  - name: internal_id
+  - name: name
+  - name: description
+  - name: brand
+  - name: category
+  - name: price
+  - name: currency
+  - name: stock
+  - name: ean
+  - name: color
+  - name: size
+  - name: availability
+  - name: loaded_at
+  - name: source_of_record
+  - name: extracted_at
+  - name: row_number
+  - name: row_hash
+  - name: key_hash
+  description: Staging model for raw.t_products
+  name: stg_products
+version: 2
